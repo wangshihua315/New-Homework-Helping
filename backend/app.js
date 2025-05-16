@@ -14,6 +14,7 @@ app.use(cors({
 }));
 app.use(express.json());
 
+
 // 路由
 app.use('/api/auth', authRoutes);
 
